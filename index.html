@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVESTVISORS</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<STYle>
+    /*CSS reset */
+      body{
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/pexels-andrea-piacquadio-3760067.jpg );
+        width: 90 px;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 20px;
+
+      }
+      ul li{
+        display: inline-block;
+      }
+      ul li a{
+        text-decoration: none;
+        color: rgb(17, 17, 17);
+        padding: 5px 20px;
+        border: 1px solid rgb(58, 58, 58);
+        border-radius: 4px;
+        transition: 0.6s ease;
+      }
+      ul li a:hover{
+        background-color: rgb(41, 130, 208);
+      color: aliceblue;
+      }
+      ul li.active a{
+        background-color: rgb(15, 15, 15);
+        color: aliceblue;
+      }
+      .logo img{
+        float: left;
+        width: 150px;
+        height: auto;
+        padding: 15px 30px;
+        
+      }
+      .main{
+        max-width: 1200px;
+        margin: auto;
+      }
+      .title{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .title h1{
+        color: black;
+        font-size: 70px;
+      }
+      .button{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .btn{
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        color: black;
+        text-decoration: none;
+        transition: 0.6s ease;
+      }
+      .btn:hover{
+        background-color: rgb(41, 130, 208);
+      color: aliceblue;
+      }
+</STYle>
+<body>
+    <header>
+      <div class="main">
+        <div class="logo">
+          <img src="image/logo.png" >
+        </div>
+        <ul>
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">SERVICE</a></li> 
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+
+      </div>
+      <div class="title">
+        <h1>INVESTVISORS</h1>
+
+      </div>
+      <div class="button">
+        <a href="#" class="btn">JOIN US</a>
+        <a href="#" class="btn">LEARN MORE</a>
+
+      </div>
+    </header>
+</body>
+</html>
